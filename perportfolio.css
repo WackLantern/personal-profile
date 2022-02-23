@@ -5,6 +5,7 @@ body{
     flex-direction: column;
     margin: 0;
     font-family: 'Titillium Web', sans-serif;
+    background:black;
 }
 
 h1, h2{
@@ -180,5 +181,9 @@ a{
 
     a:hover{
      color:red
+    }
+
+    .container{
+        width: 100%;
     }
 }
