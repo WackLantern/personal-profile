@@ -113,6 +113,15 @@ a{
 
 @media (min-width: 770px){
  
+    h1{
+        font-size:30px
+    }
+
+    h2, h3{
+        font-size: 20px;
+    }
+
+
     .border{
         border-style: solid;
     }
@@ -122,6 +131,14 @@ a{
         position: fixed;
         background: black;
         top:0;
+    }
+
+    #navbar {
+        width:60em;
+        display:flex;
+        flex-direction: row;
+        justify-content:space-between;
+        font-size: 20px;
     }
 
     #welcome-div, #About{
